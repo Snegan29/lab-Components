@@ -2,12 +2,18 @@
   box-sizing: border-box;
   margin:0;
   padding:0;
-  background-color: white
+  /* background-color: white */
+  font-family:cursive;
+
+}
+
+.body {
+  margin: 20px;
 }
 
 li, a, button{
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   color: black;
   text-decoration: none;
 }
@@ -45,18 +51,30 @@ button{
 
 
 .column {
-  float: left;
-  width: 50%;
+  /* float: left; */
   padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .column img {
   margin-top: 12px;
+  height: 83vh;
   width:100%;
+  padding: 10px;
   cursor:pointer;
 }
 
 h1{
   text-align: center;
   padding: 32px;
+}
+
+.footer {
+  background-color:black;
+  color: red;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 1.5rem;
 }
